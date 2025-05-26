@@ -1,11 +1,11 @@
 // firebase-config.js
 const firebaseConfig = {
-  apiKey: "AIzaSyDm5uJ7QwE8XxYOUR_API_KEY_HERE",
-  authDomain: "your-project-id.firebaseapp.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project-id.appspot.com",
-  messagingSenderId: "123456789012",
-  appId: "1:123456789012:web:abcdefghijk1234567890"
+  apiKey: "AIzaSyD0NZOktIapJDYwSWLw25lL2dtx9VXvCMI",
+  authDomain: "bitroyalty-78948.firebaseapp.com",
+  projectId: "bitroyalty-78948",
+  storageBucket: "bitroyalty-78948.firebasestorage.app",
+  messagingSenderId: "232862719183",
+  appId: "1:232862719183:web:15245203a1f99a78366bba"
 };
 
 // Inisialisasi Firebase
