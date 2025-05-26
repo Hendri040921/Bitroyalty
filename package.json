@@ -1,0 +1,10 @@
+{
+  "name": "bitroyalty",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "firebase deploy"
+  },
+  "devDependencies": {
+    "firebase-tools": "^13.0.0"
+  }
+}
