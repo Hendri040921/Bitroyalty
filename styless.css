@@ -1,0 +1,137 @@
+/* ===== WARNA DASAR ===== */
+:root {
+  --primary: #0066cc;    /* Biru */
+  --secondary: #e6f3ff;  /* Biru muda */
+  --success: #28a745;    /* Hijau */
+  --danger: #dc3545;     /* Merah */
+  --light: #f8f9fa;      /* Abu muda */
+}
+
+/* ===== TAMPILAN UMUM ===== */
+body {
+  background: var(--light);
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Container Utama */
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Kartu (Untuk Form & Info) */
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* ===== HALAMAN LOGIN/DAFTAR ===== */
+.auth-switch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* ===== DASHBOARD ===== */
+.info-card {
+  background: var(--secondary);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.info-card p {
+  margin: 5px 0;
+}
+
+/* Form Penarikan */
+#formPenarikan {
+  background: #fff3cd;    /* Kuning muda */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* ===== DEPOSITO ===== */
+.deposit-option {
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.deposit-option h5 {
+  color: var(--primary);
+  margin-top: 0;
+}
+
+/* ===== NAVIGASI BAWAH ===== */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+  padding: 10px;
+}
+
+.nav-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+/* ===== HALAMAN ADMIN ===== */
+.data-table {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* ===== TOMBOL ===== */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-success {
+  background: var(--success);
+  color: white;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 576px) {
+  .main-container {
+    padding: 10px;
+  }
+  
+  .card {
+    padding: 15px;
+  }
+  
+  .deposit-option {
+    padding: 10px;
+  }
+  }
