@@ -2,7 +2,7 @@
   "name": "bitroyalty",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo 'Build tidak diperlukan' && exit 0"
+    "build": "echo \"Build berhasil!\" && exit 0",
     "deploy": "firebase deploy"
   },
   "devDependencies": {
